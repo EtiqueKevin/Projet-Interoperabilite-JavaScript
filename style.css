@@ -1,0 +1,48 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#map {
+    height: 400px;
+}
+
+#chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+canvas {
+    width: 45%;
+}
+
+#meteo {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+}
+
+.echeance {
+	width: 100px;
+	height: 100px;
+    text-align: center;
+}
+
+
+#qualite-air {
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    canvas {
+        width: 85%;
+    }
+}
+
+@media (max-width: 480px) {
+    canvas {
+        width: 100%;
+    }
+    
+}
